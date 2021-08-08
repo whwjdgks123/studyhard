@@ -7,7 +7,7 @@
 
 
 //************************************* */
-
+/*
 const mon = "mon";
 const tue = "tue";
 const wed = "wed";
@@ -32,7 +32,7 @@ const toBuy = ["potato" , "tomato", "pizza"];
 //toBuy.push("kimbab");
 //console.log(toBuy[99999999999]);
 
-
+*/
 /******************************* */
 /*
 const playerName ="nico";
@@ -89,7 +89,7 @@ sayHello("nico", 10);
 sayHello("dal", 23);
 sayHello("lynn", 21);
 */
-
+/*
 function  plus(firstNumber, secondNumber) {
     console.log(firstNumber + secondNumber);
 }
@@ -115,3 +115,50 @@ function  plus(a, b) {
     console.log(a + b);
 }
 plus(5,5);
+*/
+/************************************* */
+const toBuy = ["potato", "tomato", "pizza"];
+
+console.log(toBuy);
+toBuy[2] = "water";
+console.log(toBuy);
+toBuy.push("meat");
+console.log(toBuy);
+
+const day = ["mon", "tue", "wed"]
+
+///////////////////////////////////////////
+const player = {
+    name:"NIco",
+    age: 98,
+};
+
+console.log(player);
+player.name = "nicolas";
+console.log(player);
+player.sexy ="soon";
+console.log(player,console);
+
+function plus(a,b) {
+    console.log(a + b);
+}
+
+
+
+plus(5, 10);
+plus(1.23456, 99);
+plus(1102, 1228);
+plus(5, 15464564);
+
+function minusFive(c) {
+    console.log(c -5);
+}
+
+minusFive(10,11,12,34,4,5,6,7);
+
+const caculator = {
+    add: function (a,b) {
+        console.log(a,b);
+    }
+}
+
