@@ -117,6 +117,7 @@ function  plus(a, b) {
 plus(5,5);
 */
 /************************************* */
+/*
 const toBuy = ["potato", "tomato", "pizza"];
 
 console.log(toBuy);
@@ -155,10 +156,46 @@ function minusFive(c) {
 }
 
 minusFive(10,11,12,34,4,5,6,7);
+*/
 
-const caculator = {
-    add: function (a,b) {
-        console.log(a,b);
+//////////////////////////////////////////
+const calculator = {
+    plus: function (a,b) {
+        return a + b;
+    },
+    minus: function(a,b){
+        return a - b;
+    },
+    times: function(a,b){
+        return a * b;
+    },
+    divide: function (a,b){
+        return a / b;
+    },
+    power: function (a,b){
+        return a**b;
     }
+};
+
+const plusResult = calculator.plus(2,3);
+const minusResult = calculator.minus(plusResult, 10);
+const timeResult = calculator.times(10,minusResult);
+const divideResult = calculator.divide(timeResult, plusResult);
+const powerResult = calculator.power(divideResult, minusResult);
+
+
+//console.log(plusResult);
+//calculator.plus(2,3);
+//calculator.minus(2,3);
+//calculator.times(2,3);
+//calculator.divide(2,3);
+//calculator.power(2,3);
+
+const age=96;
+function calculatorKrAge(ageOfForeigner){
+    return ageOfForeigner + 2;
 }
 
+const krAge = calculatorKrAge(age);
+
+console.log(krAge);
