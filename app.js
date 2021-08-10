@@ -157,7 +157,7 @@ function minusFive(c) {
 
 minusFive(10,11,12,34,4,5,6,7);
 */
-
+/*
 //////////////////////////////////////////
 const calculator = {
     plus: function (a,b) {
@@ -199,3 +199,8 @@ function calculatorKrAge(ageOfForeigner){
 const krAge = calculatorKrAge(age);
 
 console.log(krAge);
+
+*/
+
+const age =parseInt(prompt("How old are you?"));
+
